@@ -9,7 +9,20 @@
 
 /*#endregion*/
 
+/*#region root*/
+:root {
+  --ygo-bg: rgb(226, 150, 51);
+  --ygo-light: white;
+}
+
+/*#endregion*/
+
 /*#region general css*/
+
+body {
+  background-color: var(--ygo-bg);
+}
+
 img {
   width: 100%;
   display: block;

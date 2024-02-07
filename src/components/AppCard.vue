@@ -29,9 +29,18 @@ export default {
 </template>
 
 <style scoped>
+.card {
+    transition: all 1s;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgb(190, 118, 24);
+    scale: 1.05;
+}
+
 .info {
     padding: 0.5rem;
     text-align: center;
-    background-color: rgb(226, 150, 51);
+    background-color: var(--ygo-bg);
 }
 </style>

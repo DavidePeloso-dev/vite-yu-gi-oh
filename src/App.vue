@@ -15,7 +15,7 @@ export default {
 
   },
   mounted() {
-    axios.get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=15&offset=0')
+    axios.get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0')
       .then((resp) => {
         const cardsList = resp.data.data;
         console.log(cardsList);
@@ -23,7 +23,7 @@ export default {
           const cardObj = {
             name: card.name,
             archetype: card.archetype,
-            img: card.card_images[0].image_url_small,
+            img: card.card_images[0].image_url,
           }
           this.cards.push(cardObj)
         });
@@ -42,4 +42,9 @@ export default {
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  background-color: var(--ygo-light);
+  padding: 1rem 2rem;
+}
+</style>
