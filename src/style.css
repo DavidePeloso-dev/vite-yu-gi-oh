@@ -1,0 +1,130 @@
+/*#region reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*#endregion*/
+
+/*#region general css*/
+img {
+  width: 100%;
+  display: block;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+}
+
+/*#endregion*/
+
+/*#region utilities*/
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  margin: 0 -1rem;
+}
+
+[class^="col-"] {
+  padding: 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.jf-center {
+  justify-content: center;
+}
+
+.col-1 {
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+  width: calc(100% /12 * 4);
+}
+
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+  width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+  width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.tx-wt {
+  color: white;
+}
+
+/*#endregion*/
+
+/*#region media query*/
+@media screen and (max-width: 1300px) {
+  .col-lg-4 {
+    width: calc(100% / 12 * 4);
+  }
+
+}
+
+@media screen and (max-width: 968px) {
+  .col-md-6 {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 630px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+
+}
+
+/*#endregion*/
