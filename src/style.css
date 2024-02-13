@@ -12,6 +12,7 @@
 /*#region root*/
 :root {
   --ygo-bg: rgb(226, 150, 51);
+  --ygo-disable: rgba(226, 155, 61, 0.748);
   --ygo-light: white;
 }
 
@@ -69,6 +70,11 @@ h4 {
   justify-content: center;
 }
 
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .col-1 {
   width: calc(100% / 12);
 }
@@ -123,6 +129,14 @@ h4 {
 
 .gap-5 {
   gap: 2rem;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--ygo-bg);
+  border: 1px solid var(--ygo-bg);
+  cursor: pointer;
 }
 
 /*#endregion*/
