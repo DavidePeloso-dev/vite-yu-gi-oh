@@ -40,6 +40,7 @@ export default {
 
 .info {
     padding: 0.5rem;
+    min-height: 3.5rem;
     text-align: center;
     background-color: var(--ygo-bg);
 }
