@@ -52,9 +52,4 @@ export default {
     </div>
 </template>
 
-<style scoped>
-.bg-light {
-    background-color: var(--ygo-light);
-    padding: 1rem;
-}
-</style>
+<style scoped></style>

@@ -44,6 +44,11 @@ h4 {
   margin: 0 -1rem;
 }
 
+.bg-light {
+  background-color: var(--ygo-light);
+  padding: 1rem;
+}
+
 [class^="col-"] {
   padding: 1rem;
 }
@@ -114,6 +119,10 @@ h4 {
 
 .tx-wt {
   color: white;
+}
+
+.gap-5 {
+  gap: 2rem;
 }
 
 /*#endregion*/

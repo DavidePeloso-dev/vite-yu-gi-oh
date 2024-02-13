@@ -25,6 +25,11 @@ export default {
 </template>
 
 <style scoped>
+select {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
 .row {
     padding: 1rem 0;
 }
